@@ -1,0 +1,8 @@
+ Console.WriteLine("\nCommands:\n1. commit <message>\n2. branch <new_branch>\n3. checkout <branch>\n4. print\n5. exit");
+            Console.Write("Enter command: ");
+
+            string command = Console.ReadLine();
+            string[] commandParts = command.Split(' ');
+
+            if (commandParts.Length > 0)
+            {
